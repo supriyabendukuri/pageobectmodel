@@ -11,9 +11,9 @@ public Registerpage(WebDriver obj) {
 	this.dr=obj;
 }
 @FindBy(name="firstname")
-WebElement fname;
+WebElement lname;
 
 public void firstname(String fnm) {
-	fname.sendKeys(fnm);
+	lname.sendKeys(fnm);
 }
 }
