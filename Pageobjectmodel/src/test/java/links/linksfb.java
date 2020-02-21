@@ -21,7 +21,7 @@ public class linksfb {
 		System.out.println(links.get(i).getText());
 		JavascriptExecutor js=(JavascriptExecutor)dr;
 		js.executeScript("document.getElementById('email').value='Supriya';");
-		
+		js.executeScript("document.getElementById('email').value='Supriya';");
 	}
 	  
   }
