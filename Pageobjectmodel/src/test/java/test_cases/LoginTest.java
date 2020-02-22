@@ -16,11 +16,13 @@ public class LoginTest extends TestBase {
 	  String title = logpage.loginpagetitle();
 	  Assert.assertEquals(title, "Facebook – log in or sign up");
 	  System.out.println(title);
-	  logpage.emailid("7288909840");
+	  logpage.emailid("7288909440");
 	  logpage.password("gyuppu43");
 	  logpage.click();
 	  logpage.alertmsg();
 	  Thread.sleep(3000);
 	  logpage.navigate();
+	  logpage.dateof();	
+ 
   }
 }

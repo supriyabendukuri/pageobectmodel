@@ -2,16 +2,24 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="9664" started-at="2020-02-20T13:05:47Z" finished-at="2020-02-20T13:05:56Z">
+  <suite name="Default suite" duration-ms="10485" started-at="2020-02-22T07:33:03Z" finished-at="2020-02-22T07:33:13Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="9664" started-at="2020-02-20T13:05:47Z" finished-at="2020-02-20T13:05:56Z">
-      <class name="links.linksfb">
-        <test-method status="PASS" signature="links1()[pri:0, instance:links.linksfb@6ea6d14e]" name="links1" duration-ms="9627" started-at="2020-02-20T18:35:47Z" finished-at="2020-02-20T18:35:56Z">
+    <test name="Default test" duration-ms="10485" started-at="2020-02-22T07:33:03Z" finished-at="2020-02-22T07:33:13Z">
+      <class name="test_cases.LoginTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:test_cases.LoginTest@2eee9593]" name="initialize" is-config="true" duration-ms="10254" started-at="2020-02-22T13:02:53Z" finished-at="2020-02-22T13:03:03Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- links1 -->
-      </class> <!-- links.linksfb -->
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="login()[pri:0, instance:test_cases.LoginTest@2eee9593]" name="login" duration-ms="10467" started-at="2020-02-22T13:03:03Z" finished-at="2020-02-22T13:03:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="close()[pri:0, instance:test_cases.LoginTest@2eee9593]" name="close" is-config="true" duration-ms="5000" started-at="2020-02-22T13:03:13Z" finished-at="2020-02-22T13:03:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- test_cases.LoginTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

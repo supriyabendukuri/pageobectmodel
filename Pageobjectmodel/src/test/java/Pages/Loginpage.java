@@ -3,7 +3,7 @@ package Pages;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-
+import  org.openqa.selenium.support.ui.Select;
 public class Loginpage 
 {
 	WebDriver dr;
@@ -19,8 +19,12 @@ public class Loginpage
 	 
 	 @FindBy(xpath="//*[@id=\"loginbutton\"]")
 	 WebElement  login;
+	 
 	 @FindBy(xpath="//*[@role='alert']")
 	 WebElement alert;
+	 
+	 @FindBy(xpath="//*[@id=\"day\"]")
+	 WebElement date;
 	 
 	 public void emailid(String emid)
 	 {
@@ -46,4 +50,13 @@ public class Loginpage
 	 public String loginpagetitle() {
 		return dr.getTitle();
 	 }
+	  public void dateof() {
+		  
+		Select s= new Select(date);
+		s.selectByVisibleText("10");
+		String s1=date.getText();
+		System.out.println(s1);
+		  
+		  
+	  }
 }
